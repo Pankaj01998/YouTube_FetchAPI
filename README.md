@@ -14,3 +14,5 @@ sudo docker run -d --name dckr-container -v $(pwd):/app -p 5022:5002 dckr-img
 ```
 
 This will run the flask app on port number 5022 of server.
+
+After running the flask app you can use the following API mentioned in the flask app
